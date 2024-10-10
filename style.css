@@ -1,0 +1,144 @@
+
+
+body {
+    font-family: 'Noto Serif Oriya', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+    color: #3a364a;
+}
+
+/* Header */
+header {
+    background-color: #23272A;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 1;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+
+/* Main Layout */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Main Article */
+.main-article {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.main-article h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main-article p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.main-article a {
+    color: #1b1b1b;
+    text-decoration: none;
+}
+.main-article p a {
+    color: #3c63d7;
+    text-decoration: none;
+}
+
+/* Sidebar Articles */
+.sidebar {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar-article {
+    text-decoration: none;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sidebar-article h3 a {
+    font-weight: 200;
+    color: #1b1b1b;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.sidebar-article p {
+    font-size: 1em;
+    text-decoration: none;
+    color: #666;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.bottom-grid-article {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-grid-article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.bottom-grid-article h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.bottom-grid-article p {
+    font-size: 1em;
+    color: #666;
+}
+
+.fake-ad {
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #23272A;
+    color: white;
+    margin-top: 30px;
+}
